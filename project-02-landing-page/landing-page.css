@@ -16,6 +16,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(./img/bg.jpg) no-repeat;
   background-size: cover;
+  background-position: center top;
   animation: landingAnime 4s forwards;
 }
 @keyframes landingAnime {
@@ -33,6 +34,7 @@
       5% 15%,
       31% 10%
     );
+    background-position: center bottom;
   }
 }
 .bg {
